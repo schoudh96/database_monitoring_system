@@ -1,0 +1,80 @@
+
+
+The total space used in F:\ disk by all databases is 114994 MB.
+The total space used in F:\ disk is only 76.155% of total disk space. Please start clearing if more than 95%.
+
+
+The total space used in E:\ disk by all databases is 552225 MB.
+The total space used in E:\ disk is only 27.283% of total disk space. 
+E:\ is the disk drive where all our databases reside.
+
+
+
+The database is DirtyData and the max_space is 25469 MB.
+		
+DirtyData is currently using 99.75% of its max space allocated.
+		
+Deleting these tables from DirtyData will clear 12878.9 MB.
+		
+These 10 tables make up 50.5669% of the space allocated to DirtyData.
+		
+Deleting these 10 tables will amount to reducing DirtyData used space from 99.75% to 49.1831% of space allocated to database.
+		
+
+	
+The database is Playground and the max_space is 56846 MB.
+		
+Playground is currently using 58.76% of its max space allocated.
+		
+Deleting these tables from Playground will clear 13348.2 MB.
+		
+These 10 tables make up 23.4813% of the space allocated to Playground.
+		
+Deleting these 10 tables will amount to reducing Playground used space from 58.76% to 35.2787% of space allocated to database.
+		
+
+	
+The database is StagingData and the max_space is 410172 MB.
+		
+StagingData is currently using 50.88% of its max space allocated.
+		
+Deleting these tables from StagingData will clear 52257 MB.
+		
+These 10 tables make up 12.7403% of the space allocated to StagingData.
+		
+Deleting these 10 tables will amount to reducing StagingData used space from 50.88% to 38.1397% of space allocated to database.
+		
+
+	
+Database                                                                                                                         TableName                                                                                                                        SchemaName           TotalSpaceMB             Database Space Used %   
+-------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------- -------------------- ------------------------ ------------------------
+DirtyData                                                                                                                        DailyReturnIndexLocal_20181004                                                                                                   MSDOMAIN1\alitvi1                 3518.578125                    13.82
+DirtyData                                                                                                                        DailyReturnIndex_20181004                                                                                                        MSDOMAIN1\alitvi1                3489.3984375       13.699999999999999
+DirtyData                                                                                                                        GeoSegmentData                                                                                                                   dbo                               1813.203125       7.1200000000000001
+DirtyData                                                                                                                        mg_usmarketdaily                                                                                                                 dbo                              1456.2578125       5.7199999999999998
+DirtyData                                                                                                                        MG_GeoSegmentCompIdKey                                                                                                           MSDOMAIN1\mgries                   861.390625       3.3799999999999999
+DirtyData                                                                                                                        MG_GeoSegmentCompIdKey                                                                                                           dbo                               861.0703125       3.3799999999999999
+DirtyData                                                                                                                        MstarGeoSegment                                                                                                                  dbo                               426.1953125       1.6699999999999999
+DirtyData                                                                                                                        InvestmentBasic                                                                                                                  dbo                               284.5078125       1.1200000000000001
+DirtyData                                                                                                                        AL_TiltPortfolios                                                                                                                dbo                                88.3203125      0.34999999999999998
+DirtyData                                                                                                                        MstarUSGeoSegment                                                                                                                dbo                                 79.953125                     0.31
+Playground                                                                                                                       IMP_GEO_SEGMENT                                                                                                                  dbo                              7118.6640625                    12.52
+Playground                                                                                                                       RH_Scores_Dec2018                                                                                                                dbo                                3834.34375                     6.75
+Playground                                                                                                                       GeoSegmentMapped                                                                                                                 dbo                                676.203125       1.1899999999999999
+Playground                                                                                                                       AL_PortfolioHoldingsAttribution                                                                                                  dbo                               353.2890625                     0.62
+Playground                                                                                                                       ESGScoresAbridged                                                                                                                dbo                               277.3359375      0.48999999999999999
+Playground                                                                                                                       SS_ESGUniverse                                                                                                                   dbo                                251.453125                     0.44
+Playground                                                                                                                       AL_ESGUniverse                                                                                                                   dbo                               227.6640625      0.40000000000000002
+Playground                                                                                                                       SS_SDI_Backtest_IndicatorRawScores                                                                                               dbo                               207.9453125                     0.37
+Playground                                                                                                                       SS_SDI_Backtest_IndicatorWeights                                                                                                 dbo                               207.9453125                     0.37
+Playground                                                                                                                       AL_ESGUniverse_Aug1backup                                                                                                        dbo                                193.328125      0.34000000000000002
+StagingData                                                                                                                      BalanceSheet                                                                                                                     dbo                                 29512.375       7.2000000000000002
+StagingData                                                                                                                      KMGB_DailyPortfolioIdentifiers                                                                                                   dbo                                6664.28125       1.6200000000000001
+StagingData                                                                                                                      WeeklyReturns_CarbonRisk_Sandeep                                                                                                 dbo                              3135.5703125      0.76000000000000001
+StagingData                                                                                                                      HistoricalMarketCapEnterpriseValue_Backup                                                                                        dbo                              2409.8828125      0.58999999999999997
+StagingData                                                                                                                      DividendCompanyLevel                                                                                                             dbo                              2305.2109375      0.56000000000000005
+StagingData                                                                                                                      Volume3m_Temp                                                                                                                    dbo                               1725.640625      0.41999999999999998
+StagingData                                                                                                                      Volume6m_Temp                                                                                                                    dbo                               1719.703125      0.41999999999999998
+StagingData                                                                                                                      3mADTVFS                                                                                                                         dbo                               1662.140625      0.40999999999999998
+StagingData                                                                                                                      6mADTVFS                                                                                                                         dbo                              1662.0859375      0.40999999999999998
+StagingData                                                                                                                      CompanyFinancialReference                                                                                                        dbo                                1460.15625      0.35999999999999999
